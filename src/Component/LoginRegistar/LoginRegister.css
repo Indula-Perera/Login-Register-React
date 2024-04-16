@@ -5,11 +5,39 @@
     background-color: green;
     border-radius: 10px;
     color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.2s ease;
+}
+
+.wrapper.active{
+    height: 520px;
 }
 
 .wrapper .form-box{
     width: 100%;
     padding: 40px;
+}
+
+.wrapper .form-box.login{
+    transition: translate 0.18s ease;
+    translate: 0;
+}
+.wrapper.active .form-box.login{
+    transition: none;
+    translate: -400px;
+}
+
+.wrapper .form-box.register{
+    position: absolute;
+    transition: none;
+    translate: 400px;
+}
+
+.wrapper.active .form-box.register{
+    transition: translate 0.18s ease;
+    translate: 0;
 }
 
 form h1 {
