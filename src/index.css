@@ -13,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: blueviolet;
+  background:url('./Assets/Vector.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
