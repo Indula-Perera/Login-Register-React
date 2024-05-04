@@ -1,70 +1,58 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---
+<h1 align="center">Login and Register Front-end Using React</h1>
 
-In the project directory, you can run:
+<p align="center">
+  <b>A sleek and modern front-end implementation of a login and register system using React.</b>
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Authentication**: Seamlessly sign up for an account or log in with existing credentials.
+- **Responsive Design**: Elegant and responsive UI that adapts to various screen sizes.
+- **Smooth Transitions**: Enjoy smooth page transitions for a delightful user experience.
+- **Error Handling**: Receive clear error messages for invalid input or failed authentication attempts.
 
-### `npm test`
+## 🛠️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: For building dynamic user interfaces.
+- **React Router**: For client-side routing.
+- **CSS Modules**: For styling components with scoped CSS.
 
-### `npm run build`
+## 🛠️ Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone (https://github.com/Indula-Perera/Login-Register-React.git)
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the project directory:**
 
-### `npm run eject`
+   ```bash
+   cd <project_directory>
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Install dependencies:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Start the development server:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+5. **Open your browser and visit** `http://localhost:3000` **to view the application.**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Login Page]![Screenshot 2024-05-04 121809](https://github.com/Indula-Perera/Login-Register-React/assets/105506303/3b71bdbc-091a-43a2-ba52-f5baba1ff4b4)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Register Page]![Screenshot 2024-05-04 121826](https://github.com/Indula-Perera/Login-Register-React/assets/105506303/2412769e-dd43-4b8e-bb42-16c14f080729)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
